@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tic Tac Toe Game | Naveed Hussain</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body class="bgcolor">
+  <!-- select box -->
+  <div class="select-box br-5 w100 whitebg">
+    <header>Tic Tac Toe</header>
+    <div class="content">
+      <div class="title">Select which you want to be?</div>
+      <div class="options d-flex w100">
+        <button class="playerX bgcolor whiteColor w100 br-5">Player (X)</button>
+        <button class="playerO bgcolor whiteColor w100 br-5">Player (O)</button>
+      </div>
+      <div class="credit">Created By <a class="skyColor" href="https://github.com/Naveedussain" target="_blank">Naveed Hussain</a></div>
+    </div>
+  </div> 
+
+  <!-- playboard section -->
+  <div class="play-board">
+    <div class="details whitebg br-5">
+      <div class="players w100 d-flex">
+        <span class="Xturn skyColor w100">X's Turn</span>
+        <span class="Oturn skyColor w100">O's Turn</span>
+        <div class="slider bgcolor br-5"></div>
+      </div>
+    </div>
+    <div class="play-area">
+      <section class="d-flex">
+        <span class="box1 whitebg skyColor br-5"></span>
+        <span class="box2 whitebg skyColor br-5"></span>
+        <span class="box3 whitebg skyColor br-5"></span>
+      </section>
+      <section class="d-flex">
+        <span class="box4 whitebg skyColor br-5"></span>
+        <span class="box5 whitebg skyColor br-5"></span>
+        <span class="box6 whitebg skyColor br-5"></span>
+      </section>
+      <section class="d-flex">
+        <span class="box7 whitebg skyColor br-5"></span>
+        <span class="box8 whitebg skyColor br-5"></span>
+        <span class="box9 whitebg skyColor br-5"></span>
+      </section>
+    </div>
+  </div>
+
+  <!-- result box -->
+  <div class="result-box whitebg w100">
+    <div class="won-text d-flex"></div>
+    <div class="btn w100"><button class="whiteColor bgcolor br-5">Replay</button></div>
+  </div>
+
+  <script src="app.js"></script>
+
+</body>
+</html>
